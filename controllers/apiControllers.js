@@ -11,7 +11,9 @@ async function fetchDataFromApis(apiUrls) {
 }
 
 const urls = ['https://jsonplaceholder.typicode.com/posts', 'https://jsonplaceholder.typicode.com/comments'];
-fetchDataFromApis(urls).then(data => console.log(data));
+// fetchDataFromApis(urls).then(data => console.log(data));
+fetchDataFromApis(urls).then(data => (data));
+
 
 
 module.exports = { fetchDataFromApis };
