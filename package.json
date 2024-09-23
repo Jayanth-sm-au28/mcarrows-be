@@ -1,0 +1,35 @@
+{
+  "name": "mcarrows-be",
+  "version": "1.0.0",
+  "description": "mcarro-be",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon index.js",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Jayanth-sm-au28/mcarrows-be.git"
+  },
+  "author": "mcarrows",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Jayanth-sm-au28/mcarrows-be/issues"
+  },
+  "homepage": "https://github.com/Jayanth-sm-au28/mcarrows-be#readme",
+  "dependencies": {
+    "axios": "^1.7.7",
+    "bcryptjs": "^2.4.3",
+    "dotenv": "^16.4.5",
+    "express": "^4.21.0",
+    "joi": "^17.13.3",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.6.3"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0"
+  },
+  "jest": {
+  "testMatch": ["**/tests/**/*.test.js"]
+}
+}
