@@ -13,8 +13,7 @@ router.get("/", getUsers);
 
 router.post("/", createUser);
 
-router.put("/:id", auth, admin, updateUser);
+router.put("/:userId", auth, admin,updateUser);
 
 router.delete("/:id", auth, admin, deleteUser);
 
-module.exports = router;
